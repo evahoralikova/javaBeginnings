@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View v) {
         TextView textView = findViewById(R.id.myText);
         if(textView.getText().equals("Hello World!")){
-            textView.setText("Ahoj");
+            textView.setText("Ahoj světe!");
         }
         else {
             textView.setText("Hello World!");
